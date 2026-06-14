@@ -42,7 +42,7 @@ export default function App() {
   if (loading) return (
     <div className="min-h-dvh flex items-center justify-center bg-sunset-gradient">
       <div className="text-center">
-        <img src="/icons/oarfish.svg" className="w-16 h-16 mx-auto mb-3 animate-pulse-slow" alt="OarFish" />
+        <img src="/icons/pwa-192x192.png" className="w-16 h-16 mx-auto mb-3 animate-pulse-slow rounded-2xl" alt="OarFish" />
         <p className="text-sunset-muted text-sm">Loading…</p>
       </div>
     </div>

@@ -29,7 +29,7 @@ export default function Onboarding({ onComplete }) {
     <div className="min-h-dvh flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
       {step === 0 && (
         <div className="text-center space-y-6">
-          <img src="/icons/oarfish.svg" className="w-24 h-24 mx-auto" alt="OarFish" />
+          <img src="/icons/pwa-192x192.png" className="w-24 h-24 mx-auto rounded-3xl" alt="OarFish" />
           <div>
             <h1 className="text-4xl font-black text-sunset-text mb-2 tracking-tight">OarFish</h1>
             <p className="text-sunset-muted text-base leading-relaxed max-w-xs mx-auto">

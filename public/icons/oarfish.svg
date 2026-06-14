@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#C0392B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F0C29;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fish" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D2B55;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="96" ry="96" fill="url(#bg)" />
+
+  <!-- Oarfish body — long, tapering, horizontal -->
+  <ellipse cx="256" cy="272" rx="185" ry="28" fill="url(#fish)" />
+  <!-- Tail fin -->
+  <polygon points="72,272 44,248 44,296" fill="#1A1A3E" />
+  <!-- Head/snout -->
+  <ellipse cx="430" cy="272" rx="22" ry="18" fill="#2D2B55" />
+  <!-- Eye -->
+  <circle cx="436" cy="268" r="6" fill="#FF6B35" />
+  <circle cx="437" cy="267" r="2" fill="#FFF5EE" />
+
+  <!-- Dorsal fin spines (tall, dramatic — oarfish signature) -->
+  <line x1="390" y1="272" x2="375" y2="168" stroke="#FF6B35" stroke-width="4" stroke-linecap="round"/>
+  <line x1="370" y1="270" x2="352" y2="152" stroke="#FF6B35" stroke-width="4" stroke-linecap="round"/>
+  <line x1="348" y1="268" x2="328" y2="148" stroke="#FDB931" stroke-width="4" stroke-linecap="round"/>
+  <line x1="326" y1="267" x2="305" y2="150" stroke="#FDB931" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="304" y1="267" x2="283" y2="156" stroke="#FF6B35" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="282" y1="267" x2="262" y2="164" stroke="#FF6B35" stroke-width="3" stroke-linecap="round"/>
+  <line x1="260" y1="267" x2="242" y2="172" stroke="#FDB931" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Pectoral fin -->
+  <ellipse cx="380" cy="292" rx="24" ry="10" fill="#2D2B55" transform="rotate(20 380 292)" />
+
+  <!-- Wordmark -->
+  <text x="256" y="360" font-family="Georgia, serif" font-size="64" font-weight="bold"
+        fill="#FFF5EE" text-anchor="middle" letter-spacing="4" opacity="0.95">oarfish</text>
+</svg>
